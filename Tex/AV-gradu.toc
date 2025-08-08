@@ -1,0 +1,23 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{Abstract}{3}{Doc-Start}%
+\contentsline {section}{Tiivistelmä}{5}{Doc-Start}%
+\babel@toc {finnish}{}\relax 
+\babel@toc {english}{}\relax 
+\contentsline {section}{Preface}{7}{Doc-Start}%
+\contentsline {section}{\numberline {1}Introduction}{11}{section.1}%
+\contentsline {section}{\numberline {2}Theoretical background}{11}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Low Mass X-ray Binaries}{11}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Nuclear reaction network}{11}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}Rapid Proton Capture Process}{11}{subsubsection.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.3}Total Reaction Rate}{11}{subsubsection.2.1.3}%
+\contentsline {subsubsection}{\numberline {2.1.4}Light Emission Curves}{11}{subsubsection.2.1.4}%
+\contentsline {subsection}{\numberline {2.2}TALYS}{11}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Hauser-Feshbach statistical model}{11}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Parameters}{11}{subsubsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.3}Winnet}{11}{subsection.2.3}%
+\contentsline {section}{\numberline {3}Methods and materials}{11}{section.3}%
+\contentsline {section}{\numberline {4}Results}{11}{section.4}%
+\contentsline {section}{\numberline {5}Conclusions}{11}{section.5}%
+\contentsline {section}{References}{11}{section.5}%
+\contentsline {section}{\numberline {A}First appendix}{13}{appendix.A}%
+\contentsline {section}{\numberline {B}Second appendix}{15}{appendix.B}%

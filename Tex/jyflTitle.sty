@@ -1,0 +1,53 @@
+% Copyright note: This package defines how thesis titles should
+% be typeset at the University of Jyvaskyla, Department of Physics
+% Please check for updates
+\ProvidesPackage{jyflTitle}[2017/01/28 v.01 a typesetting packing for thesis]
+\RequirePackage{graphicx}
+\newcommand*{\project}[1]{\gdef\@project{#1}%
+}
+\newcommand*{\@project}{Bachelor's Thesis}
+\newcommand*{\supervisor}[1]{\gdef\@supervisor{#1}%
+}
+\newcommand*{\@supervisor}{\texttt{\string\supervisor} currently
+not set. Please fix this.}
+%----------------------------------------------------------------------------------------
+% KANSILEHDEN MUOTOILU JA TEKSTI
+%----------------------------------------------------------------------------------------
+\newcommand*{\titleJYFL}{\begingroup  % Create the command for including the title page in the document
+\hbox{                                    % Horizontal box
+\hspace*{0.1\textwidth}                   % Whitespace to the left of the title page
+\rule{1pt}{\textheight}                   % Vertical line
+\hspace*{0.05\textwidth}                  % Whitespace between the vertical line and title page text
+\parbox[b]{0.8\textwidth}{                % Paragraph box which restricts text to less than the width of the page
+
+% Tutkielman nimi
+%%{\noindent\LARGE\bfseries Kandidaatin tutkielman\\[0.5\baselineskip] ulkoasu ja sisältö}\\[2\baselineskip]
+{\noindent\raggedright\LARGE\bfseries \@title\unskip\strut\par}
+\vspace{1cm}
+% Tutkielman tyyppi ja päiväys
+{\large \@project, \@date}\\[3.5\baselineskip]
+%
+% Tutkielman tekijä 
+{\normalsize Author:}\\[0.5\baselineskip] 
+{\large \textsc{\@author\unskip\strut}}\\[1\baselineskip]
+%
+% Työn ohjaajat
+{\normalsize Supervisor:}\\[0.5\baselineskip]
+{\large \textsc{\@supervisor\unskip\strut}}
+%
+% Tyhjä väli ohjaajan nimen ja yliopiston logon välille - älä poista seuraavaa tyhjää riviä!
+
+\vspace{0.2\textheight}
+% Yliopiston logo, nimi ja ainelaitos
+\includegraphics[height=30mm]{JYFL-logo-en.png} 
+}
+}        
+\pagebreak
+\ 
+
+\vfill
+
+{\raggedright\textcopyright\ \the\year\ \@author\par
+This publication is copyrighted. You may download, display and print it for Your own personal use. Commercial use is prohibited. Julkaisu on tekijänoikeussäännösten alainen. Teosta voi lukea ja tulostaa henkilökohtaista käyttöä varten. Käyttö kaupallisiin tarkoituksiin on kielletty.  \par}
+
+\endgroup}
